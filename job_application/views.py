@@ -24,3 +24,8 @@ def index(request):
             messages.success(request,"Form Submitted SuccessFully")
 
     return render(request, "index.html")
+
+def about(request):
+    return render(request,"about.html")
+def contact(request):
+    return render(request,"Contact.html")
